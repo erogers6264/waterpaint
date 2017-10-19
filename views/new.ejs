@@ -1,0 +1,9 @@
+<% include partials/header %>
+<h1>Create a new painting</h1>
+<form action="/paintings" method="POST">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="image" placeholder="image url">
+    <button>Submit!</button>
+</form>
+<a href="/paintings">Go Back</a>
+<% include partials/footer %>
